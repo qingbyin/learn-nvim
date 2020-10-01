@@ -6,6 +6,8 @@
 
 
 " General Settings
+
+" Only use syntax highlight plugin in nvim
 if !exists('g:vscode')
   source $HOME/.config/nvim/plug-config/polyglot.vim
 endif

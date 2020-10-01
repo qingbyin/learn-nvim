@@ -1,4 +1,9 @@
+" vim-polyglot is a language pack for Vim that provides syntax highlighting
+" and indentation for lots and lots of programming languages.
+
+" Disable syntax highlight in csv file
 let g:polyglot_disabled = ['csv']
+
 
 let g:python_highlight_all=1
 

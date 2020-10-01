@@ -17,8 +17,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Repeat stuff
     Plug 'tpope/vim-repeat'
     " Text Navigation
+    " Highlight a unique character to help you use f, F keys. not powerful as easymotion
     Plug 'unblevable/quick-scope'
-    " Useful for React Commenting 
+    " Useful for React Commenting
     Plug 'suy/vim-context-commentstring'
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
@@ -26,6 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   if exists('g:vscode')
     " Easy motion for VSCode
     Plug 'asvetliakov/vim-easymotion'
+    " build-in feature in Neovim or Vim 8.0
     Plug 'machakann/vim-highlightedyank'
   else
 
@@ -37,6 +39,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-eunuch'
     " Have the file system follow you around
     Plug 'airblade/vim-rooter'
+    " TODO: neccessary?
     " auto set indent settings
     Plug 'tpope/vim-sleuth'
     " Better Syntax Support
@@ -45,8 +48,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Cool Icons
     Plug 'ryanoasis/vim-devicons'
     " Auto pairs for '(' '[' '{'
+    " TODO: alread have coc-pairs extension, need to disable this
     Plug 'jiangmiao/auto-pairs'
-    " Closetags
+    " Closetags for HTML language
     Plug 'alvan/vim-closetag'
     " Themes
     Plug 'christianchiarulli/nvcode.vim'

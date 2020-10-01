@@ -7,7 +7,7 @@
     \ 'coc-lists',
     \ 'coc-emmet',
     \ 'coc-tasks',
-    \ 'coc-pairs',
+    \ 'coc-pairs',  " should disable other auto pair plugins
     \ 'coc-tsserver',
     \ 'coc-floaterm',
     \ 'coc-html',
